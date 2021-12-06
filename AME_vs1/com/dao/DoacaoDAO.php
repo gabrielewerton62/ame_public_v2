@@ -1,8 +1,8 @@
 <?php
 
-include_once(filter_input(INPUT_SERVER, 'DOCUMENT_ROOT') . '/ame_public/AME_vs1/com/model/Doacao.php');
-include_once(filter_input(INPUT_SERVER, 'DOCUMENT_ROOT') . '/ame_public/AME_vs1/com/dao/BaseDAO.php');
-include_once(filter_input(INPUT_SERVER, 'DOCUMENT_ROOT') . '/ame_public/AME_vs1/com/model/Usuario.php');
+include_once(filter_input(INPUT_SERVER, 'DOCUMENT_ROOT') . '/ame_public_v2/AME_vs1/com/model/Doacao.php');
+include_once(filter_input(INPUT_SERVER, 'DOCUMENT_ROOT') . '/ame_public_v2/AME_vs1/com/dao/BaseDAO.php');
+include_once(filter_input(INPUT_SERVER, 'DOCUMENT_ROOT') . '/ame_public_v2/AME_vs1/com/model/Usuario.php');
 class DoacaoDAO extends BaseDAO {
 
     private $limpaObjetos = false;

@@ -1,8 +1,8 @@
 <?php
 
-include_once(filter_input(INPUT_SERVER, 'DOCUMENT_ROOT') . '/ame_public/AME_vs1/com/dao/EstadoDAO.php');
-include_once(filter_input(INPUT_SERVER, 'DOCUMENT_ROOT') . '/ame_public/AME_vs1/com/dao/CidadeDAO.php');
-include_once(filter_input(INPUT_SERVER, 'DOCUMENT_ROOT') . '/ame_public/AME_vs1/com/dao/BairroDAO.php');
+include_once(filter_input(INPUT_SERVER, 'DOCUMENT_ROOT') . '/ame_public_v2/AME_vs1/com/dao/EstadoDAO.php');
+include_once(filter_input(INPUT_SERVER, 'DOCUMENT_ROOT') . '/ame_public_v2/AME_vs1/com/dao/CidadeDAO.php');
+include_once(filter_input(INPUT_SERVER, 'DOCUMENT_ROOT') . '/ame_public_v2/AME_vs1/com/dao/BairroDAO.php');
 class Empresa implements JsonSerializable {
 
 	private $limpaObjetos = false;

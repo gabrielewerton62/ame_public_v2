@@ -1,7 +1,7 @@
 <?php 
 
-include_once(filter_input(INPUT_SERVER, 'DOCUMENT_ROOT') . '/ame_public/AME_vs1/com/model/User.php');
-include_once(filter_input(INPUT_SERVER, 'DOCUMENT_ROOT') . '/ame_public/AME_vs1/com/dao/UserDAO.php');
+include_once(filter_input(INPUT_SERVER, 'DOCUMENT_ROOT') . '/ame_public_v2/AME_vs1/com/model/User.php');
+include_once(filter_input(INPUT_SERVER, 'DOCUMENT_ROOT') . '/ame_public_v2/AME_vs1/com/dao/UserDAO.php');
 
 $nome = trim(FILTER_VAR(FILTER_INPUT(INPUT_POST, "nome"), FILTER_SANITIZE_STRING));
 $sobrenome = trim(FILTER_VAR(FILTER_INPUT(INPUT_POST, "sobrenome"), FILTER_SANITIZE_STRING));

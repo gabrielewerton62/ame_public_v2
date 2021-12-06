@@ -1,6 +1,6 @@
 <?php
 
-include_once(filter_input(INPUT_SERVER, 'DOCUMENT_ROOT') . '/ame_public/AME_vs1/com/dao/BairroDAO.php');
+include_once(filter_input(INPUT_SERVER, 'DOCUMENT_ROOT') . '/ame_public_v2/AME_vs1/com/dao/BairroDAO.php');
 
 header("Content-Type: application/json");
 header('Access-Control-Allow-Origin: *');
